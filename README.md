@@ -35,16 +35,11 @@ Otherwise you will need to set environment variables:
 
 Arguments supported include:
 
-<<<<<<< HEAD
-* --collectionsid, -c:  Collections guid for which to create a report.
-* --name, -n:           Collections name for which to create a report.
-
 Note: one of the two arguments is required
-=======
 * --collectionsid, -c  (required): Collections guid for which to create a report.
+*  --name, -n:           Collections name for which to create a report.
 * --format, -f  (optional): Comma separate list of desired output formats. pdf (default), csv, json.
 * --scan_types, -st (optional): Comma separate list of desired scans to include, defaults to all options. options: STATIC, DYNAMIC, SCA, MANUAL
 * --policy, -p (optional): Only include findings that impact defined policy, otherwise include all findings in result set. Does not affect SCA findings.
->>>>>>> 89da6710cf7bb8a6d3f37f30b0ec40a70680dc57
 
 The Collections Report produces two outputs: a PDF, a CSV and/or JSON file.
